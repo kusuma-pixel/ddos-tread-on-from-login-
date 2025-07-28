@@ -1,0 +1,15 @@
+requests
+pytesseract
+pillow
+beautifulsoup4
+fake-useragent
+pysocks
+
+# Untuk Tor (opsional, jika USE_TOR=True)
+stem==1.8.2
+
+# Untuk OCR (jika menggunakan Tesseract)
+pillow==10.1.0
+
+# Untuk parsing HTML
+lxml==4.9.3
